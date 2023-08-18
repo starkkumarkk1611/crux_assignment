@@ -63,8 +63,13 @@ source .venv/Scripts/activate
 ```
 pip install -r requirements.txt
 ```
+13. Navigate to backend/crux and run database migration 
 
-13. To run the server. Navigate to  (backend/crux).
+```
+python manage.py migrate
+```
+
+13. To  start development server. (run command in 'backend/crux' dir.)
 
 ```
 python manange.py runserver 
